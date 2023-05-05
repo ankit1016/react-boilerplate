@@ -16,6 +16,57 @@
   animation: 1.8s infinite heartbeat;
 }
 
+.product-listing {
+  margin: 0 auto;
+}
+
+.card{
+ max-width: 320px;
+  margin-bottom: 1rem;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+// @media screen and (max-width: 1024px) {
+//   .card-container {
+//     justify-content: space-around;
+//   }
+//   .card {
+//     flex-basis: calc(50% - 10px);
+//     margin-bottom: 20px;
+//   }
+// }
+
+// @media screen and (max-width: 767px) {
+//   .card-container {
+//     justify-content: center;
+//   }
+//   .card {
+//     flex-basis: calc(50% - 10px);
+//     margin-bottom: 20px;
+//   }
+// }
+
+@media screen and (min-width:320px){
+ 
+    .card {
+    flex-basis: calc(50% - 10px);
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+
+  .product-listing {
+    margin: 0 1rem;
+  }
+}
+
+
 @keyframes heartbeat {
   0% {
     transform: scale(1);

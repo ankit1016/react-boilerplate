@@ -5,7 +5,7 @@ export const collections = [
         "code": "A6164-black-Free_Size",
         "productId": 129,
         "name": "Black Georgette Saree With Blouse Piece",
-        "description": "\"Color : Black  Fabric : Poly Georgette Blouse : Yes\"",
+        "description": "Color : Black  Fabric : Poly Georgette Blouse : Yes",
         "blouseAttached": true,
         "blouseFabric": "poly-georgette",
         "sareeFabric": "poly-georgette",

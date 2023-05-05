@@ -1,0 +1,25 @@
+.header-main-div{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+    padding: 1rem;
+}
+
+.header-right-div>i{
+    color: gray;
+    margin: 0 0.5rem;
+}
+
+.header-left-div{
+    display: flex;
+    align-items: center;
+}
+
+.header-left-div>i{
+    margin:0 0.5rem;
+    margin-top: 0.1rem;
+}
